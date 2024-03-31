@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'AgroWiz';
+const COLLECTION_NAME = '1MPro';
 let editions = [];
 let dots = 1;
 
