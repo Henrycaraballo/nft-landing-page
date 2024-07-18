@@ -11,7 +11,7 @@
   --bg-color: #00163f;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #7efeb8;
+  --accent-color: #0968b6;
   --header-shadow: #7b2e2e 0px 0px 5px;
 }
 
@@ -69,7 +69,7 @@ header .container {
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  /* box-shadow: 4px 4px 0 0 var(--accent-color); */
   cursor: pointer;
   position: relative;
   text-decoration: none;
@@ -141,7 +141,7 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  /* text-shadow: 2px 2px 0 var(--accent-color); */
   font-style: italic;
   margin: 2rem 0;
   font-size: 2.5rem;
