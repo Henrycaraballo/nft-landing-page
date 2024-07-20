@@ -78,9 +78,9 @@ function updateStatusText(isOwner, checking) {
   const statusText = document.querySelector('.owner-status');
   if(checking) {
     if(isOwner) {
-      statusText.innerText = `Si eres propietario ${COLLECTION_NAME}!! 😻 Veámos de cuantos${renderDots(dots)}`;
+      statusText.innerText = `Si eres propietario ${COLLECTION_NAME}!! 😻 Veámos cuantos tienes${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Revisando cuandos tienes ${COLLECTION_NAME} 😻${renderDots(dots)}`;
+      statusText.innerText = `Revisando cuantos tienes ${COLLECTION_NAME} 😻${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
