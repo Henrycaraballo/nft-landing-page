@@ -181,3 +181,19 @@ section {
   }
 }
  
+@media (max-width: 600px) {
+  .menu {
+    gap: 1rem;
+  }
+  .wallet-btn {
+    margin-left: 0;
+    padding: 1rem;
+    max-width: 6rem;
+  }
+  .countdown h1 {
+    font-size: 2rem;
+  }
+  .countdown p {
+    font-size: 1rem;
+  }
+}
