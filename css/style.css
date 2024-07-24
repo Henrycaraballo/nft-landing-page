@@ -67,7 +67,7 @@ header .container {
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
-  text-transform: capitalize;
+  text-transform: Capital;
   transition: all 0.3s ease;
   /* box-shadow: 4px 4px 0 0 var(--accent-color); */
   cursor: pointer;
@@ -164,7 +164,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen (max-width: 768px) {
   .menu {
     gap: 1rem;
   }
@@ -189,11 +189,30 @@ section {
     margin-left: 0;
     padding: 1rem;
     max-width: 6rem;
+    font-size: 0.7rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .countdown p {
+    font-size: 0.7rem;
+  }
+}
+
+  @media (max-width: 400px) {
+  .menu {
+    gap: 1rem;
+  }
+  .wallet-btn {
+    margin-left: 0;
+    padding: 1rem;
+    max-width: 6rem;
+    font-size: 0.5rem;
+  }
+  .countdown h1 {
     font-size: 1rem;
+  }
+  .countdown p {
+    font-size: 0.5rem;
   }
 }
